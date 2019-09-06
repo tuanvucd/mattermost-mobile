@@ -1,5 +1,4 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
-// See LICENSE.txt for license information.
+
 
 import {store} from 'app/mattermost';
 import {showModalOverCurrentContext} from 'app/actions/navigation';
