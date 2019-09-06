@@ -1,3 +1,6 @@
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
+
 import {getDataRetentionPolicy} from 'mattermost-redux/actions/general';
 import {GeneralTypes} from 'mattermost-redux/action_types';
 import {getSessions} from 'mattermost-redux/actions/users';

@@ -1,1 +1,1 @@
-GChat
+Mattermost Beta

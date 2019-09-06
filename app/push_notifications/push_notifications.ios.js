@@ -1,3 +1,6 @@
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
+
 import {AppState} from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import NotificationsIOS, {NotificationAction, NotificationCategory} from 'react-native-notifications';

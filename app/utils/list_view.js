@@ -1,3 +1,6 @@
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
+
 import shallowEqual from 'shallow-equals';
 
 // Returns a function that will construct a memoized array of its arguments for use as

@@ -1,3 +1,6 @@
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
+
 import LocalConfig from 'assets/config'; // eslint-disable-line
 
 import {store} from 'app/mattermost';

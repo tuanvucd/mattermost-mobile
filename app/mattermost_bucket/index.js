@@ -1,3 +1,6 @@
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
+
 import {NativeModules, Platform} from 'react-native';
 
 // TODO: Remove platform specific once android is implemented

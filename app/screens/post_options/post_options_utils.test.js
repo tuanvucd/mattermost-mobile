@@ -1,3 +1,6 @@
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
+
 import {getInitialPosition, MAX_INITIAL_POSITION_MULTIPLIER} from './post_options_utils';
 
 describe('should match return value of getInitialPosition', () => {

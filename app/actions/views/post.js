@@ -1,3 +1,6 @@
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
+
 import {Posts} from 'mattermost-redux/constants';
 import {doPostAction, receivedNewPost} from 'mattermost-redux/actions/posts';
 

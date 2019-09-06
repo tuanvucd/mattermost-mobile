@@ -1,3 +1,6 @@
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
+
 import {Alert, AppState, Dimensions, Linking, NativeModules, Platform} from 'react-native';
 import DeviceInfo from 'react-native-device-info';
 import semver from 'semver';

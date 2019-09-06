@@ -1,3 +1,6 @@
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
+
 import AsyncStorage from '@react-native-community/async-storage';
 import NotificationsIOS from 'react-native-notifications';
 import PushNotification, {FOREGROUND_NOTIFICATIONS_KEY} from './push_notifications.ios';

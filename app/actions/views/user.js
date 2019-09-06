@@ -1,3 +1,6 @@
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
+
 import {UserTypes} from 'mattermost-redux/action_types';
 import {General} from 'mattermost-redux/constants';
 import {getCurrentUserId} from 'mattermost-redux/selectors/entities/users';

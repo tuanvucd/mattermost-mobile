@@ -1,3 +1,6 @@
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
+
 export function getNotificationProps(user) {
     if (user && user.notify_props) {
         return user.notify_props;

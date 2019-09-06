@@ -3,6 +3,7 @@
 //  Mattermost
 //
 // Copyright (c) 2016-present Mattermost, Inc. All Rights Reserved.
+// See License.txt for license information.
 //
 
 #import "MattermostManaged.h"
@@ -126,12 +127,12 @@ static NSString * const feedbackKey = @"com.apple.feedback.managed";
 - (void) remoteConfigChanged {
   NSDictionary *response = [[NSUserDefaults standardUserDefaults] dictionaryForKey:configurationKey];
   NSDictionary *group = [self.sharedUserDefaults dictionaryForKey:configurationKey];
-
+  
   if (response && ![response isEqualToDictionary:group]) {
     // copies the managed configuration so it is accessible in the Extensions
     [self.sharedUserDefaults setObject:response forKey:configurationKey];
   }
-
+  
   if (hasListeners) {
     @try {
       [self sendEventWithName:@"managedConfigDidChange" body:response];
