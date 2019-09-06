@@ -1,4 +1,5 @@
-
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
 
 export const AT_MENTION_REGEX = /\B(@([^@\r\n\s]*))$/i;
 

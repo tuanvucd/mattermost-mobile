@@ -1,4 +1,5 @@
-
+// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
+// See LICENSE.txt for license information.
 
 import {fetchMyChannelsAndMembers} from 'mattermost-redux/actions/channels';
 import {getRedirectChannelNameForTeam, getChannelsNameMapInTeam} from 'mattermost-redux/selectors/entities/channels';
