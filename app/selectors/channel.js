@@ -1,6 +1,3 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
-// See LICENSE.txt for license information.
-
 import {createSelector} from 'reselect';
 
 import {getCurrentUserId, getUser} from 'mattermost-redux/selectors/entities/users';

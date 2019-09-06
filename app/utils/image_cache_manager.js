@@ -1,6 +1,3 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
-// See LICENSE.txt for license information.
-
 // Based on the work done by https://github.com/wcandillon/react-native-expo-image-cache/
 
 import {Platform} from 'react-native';

@@ -1,6 +1,3 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
-// See LICENSE.txt for license information.
-
 import {generateChannelNameFromDisplayName} from 'app/actions/views/create_channel';
 
 describe('Actions.Views.CreateChannel', () => {

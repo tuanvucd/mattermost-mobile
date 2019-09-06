@@ -1,6 +1,3 @@
-// Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
-// See LICENSE.txt for license information.
-
 import 'intl';
 import {addLocaleData} from 'react-intl';
 import enLocaleData from 'react-intl/locale-data/en';
